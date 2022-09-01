@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    display: contents;
+
+}
+
+li {
+    margin-top: 3%;
+
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.icon {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
