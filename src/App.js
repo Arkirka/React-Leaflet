@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Route,HashRouter as Router,} from 'react-router-dom'
-import MapMain from './pages/map/MapMain';
+import MapMain from "./pages/map/MapMain";
 
 
 

@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Microservice.MapManager.Protos";
+
+package figureProto;
+
+
+service FigureService {
+  rpc GetFigures (SendRequest) returns (stream SendReply);
+}
+
+message SendRequest {
+	int32 mapId = 1;
+}
+message SendReply {
+   repeated FigureProto figures = 1;
+}
+
+message FigureProto {
+  int32 id = 1;
+  int32 mapId = 2;
+  int32 categoryId = 3;
+  string points = 4;
+  string color = 5;
+  string type = 6;
+  bool isUnique = 7;
+}
